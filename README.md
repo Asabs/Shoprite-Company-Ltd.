@@ -1,4 +1,12 @@
 # Shoprite-Company-Ltd.
 An inventory Management System for Shoprite Ghana Ltd.
-This app helps both admin and attendants to login and use the app.
-The admin can 
+This C# MySQL project for an inventory management system is primarily concerned with monitoring inventory activity. More specifically, the system assists in tracking stocks in relation to sales. The system also shows all paid and unpaid transactions related to the items. The system also enables managing system users, among other things. This project, it appears, includes an admin panel, a management panel, and a client panel. A system administrator has complete control over this web application, according to an overview. He or she is capable of overseeing sales, inventories, and staff. An administrator can do nearly anything here, but their primary responsibility is still managing the system's flow.
+A manager's account also has access to handle all inventory-related actions. A management can list out, add to, remove from, and update the inventories of a corporation here. The technology actually enables management of sales records. The system needs information about inventories, such as the name of the model, parts, kind, and price, in order to manage inventory. Every item also has a stock quantity, which the manager or administrator also controls. Additionally, as soon as a product completes the transaction process, the system instantly subtracts the quantity of that product. Additionally, the manager can produce a variety of reports in PDF format. It contains information about item lists, orders, and other things.
+On the one hand, the manager has access to keep track of consumer orders. In fact, the manager is able to provide a list of several unfulfilled or delayed orders. Along with product information, pricing, and quantity, it also contains the customer's name.
+•	The LoginForm: Helps users log in into the inventory system
+•	The MainForm: The homepage showcases all the other forms of the inventory system
+•	ProductForm: Makes users add, delete or update the products name, quantity, price, description and category. 
+•	OrderForm: Makes users add the customers (shows the customers ID and name) with the product (shows the product ID, name, price, quantity and total) they are ordering. Also, contains the Order Date.
+•	CategoryForm: Makes users add, delete or update the categories of the products
+•	CustomerForm: Makes users add, delete or update the customers details.
+•	UserForm: Makes users add, delete or update the users with their username and password for signing in into the system.
